@@ -5,19 +5,15 @@ use strict;
 use Carp;
 
 use vars qw($VERSION @ISA %COMICS);
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 @ISA = qw(WWW::Comic::Plugin);
 %COMICS = (xkcd => 'xkcd - A webcomic of romance, sarcasm, math, and language');
 
-# $Id: XKCD.pm 328 2008-04-04 23:15:10Z davidp $
+# $Id: XKCD.pm 331 2008-04-07 21:58:43Z davidp $
 
 =head1 NAME
 
 WWW::Comic::Plugin::XKCD - WWW::Comic plugin to fetch XKCD comic
-
-=head1 VERSION
-
-Version 0.01
 
 
 =head1 SYNOPSIS

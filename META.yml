@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                WWW-Comic-Plugin-XKCD
-version:             0.01
+version:             0.02
 abstract:            WWW::Comic plugin to fetch XKCD comic
 license:             perl
 author:              
